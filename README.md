@@ -1,44 +1,39 @@
-# SmartKey – NLP-Based Keyword Extraction
+# SmartKey – Simple NLP Keyword Extractor
 
-## 📌 Project Overview
+## 📌 About the Project
 
-**SmartKey** is a simple Natural Language Processing (NLP) project that automatically extracts the most important keywords from a given paragraph.
+**SmartKey** is a mini Natural Language Processing (NLP) project that finds the most meaningful keywords and phrases from user-provided text.
 
-The project uses the **RAKE (Rapid Automatic Keyword Extraction)** algorithm to identify important words and phrases from text.
-
-No dataset or model training is required.
+It uses the **RAKE (Rapid Automatic Keyword Extraction)** algorithm and does not require any dataset or model training.
 
 ---
 
-## 🎯 Objective
+## 🎯 Purpose
 
-The main objective of this project is to demonstrate how NLP techniques can be used to identify important keywords from unstructured text.
+The purpose of this project is to demonstrate a simple and practical application of NLP for extracting useful information from text.
 
 ---
 
-## ⚙️ Technologies Used
+## 🛠️ Technologies
 
-| Technology | Purpose                             |
-| ---------- | ----------------------------------- |
-| Python     | Programming Language                |
-| NLP        | Text Processing                     |
-| RAKE-NLTK  | Keyword Extraction                  |
-| NLTK       | Natural Language Processing Library |
+* **Python**
+* **NLP**
+* **RAKE-NLTK**
+* **NLTK**
 
 ---
 
 ## ✨ Features
 
-* Accepts text directly from the user
-* Extracts important keywords and phrases
-* Displays keyword scores
-* No dataset required
-* No machine learning model training required
-* Simple and beginner-friendly
+* Takes text as input from the user
+* Automatically identifies important keywords
+* Shows keyword ranking scores
+* Does not require a dataset
+* Easy to run and understand
 
 ---
 
-## 📂 Project Structure
+## 📂 Files
 
 ```text
 SmartKey/
@@ -50,37 +45,27 @@ SmartKey/
 
 ---
 
-## 🔄 Working Process
+## 🔄 How It Works
 
 ```text
-User Input
+Enter Text
     ↓
-Text Processing
+Process Text
     ↓
-RAKE Algorithm
+Apply RAKE Algorithm
     ↓
-Keyword Scoring
+Rank Keywords
     ↓
-Important Keywords
+Display Results
 ```
 
 ---
 
-## 🛠️ Installation
+## 🚀 Installation
 
-### 1. Install Python
+First, make sure Python is installed.
 
-Make sure Python is installed on your computer.
-
-Check using:
-
-```bash
-python --version
-```
-
-### 2. Install Required Library
-
-Open the terminal inside the project folder and run:
+Then install the required package:
 
 ```bash
 pip install rake-nltk
@@ -88,81 +73,80 @@ pip install rake-nltk
 
 ---
 
-## ▶️ How to Run
+## ▶️ Run the Project
 
-Run the following command:
+Execute:
 
 ```bash
 python main.py
 ```
 
-Enter a paragraph when prompted.
+Enter any paragraph when the program asks for input.
 
-### Example Input
+### Example
+
+**Input:**
 
 ```text
 Artificial intelligence is transforming healthcare through
-machine learning, medical diagnosis, and intelligent systems.
+machine learning and intelligent medical systems.
 ```
 
-### Example Output
+**Output:**
 
 ```text
 Important Keywords:
 
 - artificial intelligence
-- intelligent systems
+- intelligent medical systems
 - machine learning
-- medical diagnosis
 - healthcare
 ```
 
 ---
 
-## 🧠 NLP Technique
+## 🧠 NLP Method
 
-### RAKE
+### RAKE – Rapid Automatic Keyword Extraction
 
-RAKE stands for **Rapid Automatic Keyword Extraction**.
+RAKE is an NLP technique used to identify important words and phrases from text.
 
-It identifies important words and phrases from a document by analyzing word frequency and relationships between words.
-
-The extracted keywords are then ranked according to their scores.
+It analyzes the text and assigns scores to potential keywords. The highest-ranked phrases are displayed as the final result.
 
 ---
 
-## 📊 Advantages
+## ✅ Benefits
 
-* Easy to implement
-* Does not require a dataset
-* Fast execution
-* Simple to understand
-* Useful for text analysis
-
----
-
-## 🔮 Future Scope
-
-The project can be extended to:
-
-* Build a graphical user interface
-* Process uploaded text files
-* Extract keywords from PDF documents
-* Add multilingual keyword extraction
-* Display keywords using charts or word clouds
+* Small and simple project
+* No training dataset required
+* Beginner-friendly
+* Quick execution
+* Easy to demonstrate in a college activity
 
 ---
 
-## 👩‍💻 Author
+## 🔮 Future Improvements
+
+The project can later be extended with:
+
+* A simple web interface
+* PDF and text-file input
+* Keyword visualization
+* Support for multiple languages
+* Word-cloud generation
+
+---
+
+## 👨‍💻 Author
 
 **Kavya Balsaraf**
 
 **Department:** Electronics and Telecommunication Engineering
 
-**Project:** SmartKey – NLP-Based Keyword Extraction
+**Project:** SmartKey – Simple NLP Keyword Extractor
 
 ---
 
-## 📜 License
+## 📄 License
 
-This project is created for **educational and academic purposes**.
+This project is intended for **educational and academic purposes**.
