@@ -1,29 +1,27 @@
-# SmartKey – Simple NLP Keyword Extractor
+ WordLens – NLP-Based Text Insight System
 
-## 📌 About the Project
+ 📌 About the Project
 
-**SmartKey** is a mini Natural Language Processing (NLP) project that finds the most meaningful keywords and phrases from user-provided text.
+Wordlens is a mini Natural Language Processing (NLP) project that finds the most meaningful keywords and phrases from user-provided text.
 
-It uses the **RAKE (Rapid Automatic Keyword Extraction)** algorithm and does not require any dataset or model training.
+It uses the RAKE (Rapid Automatic Keyword Extraction) algorithm and does not require any dataset or model training.
 
----
 
-## 🎯 Purpose
+ 🎯 Purpose
 
 The purpose of this project is to demonstrate a simple and practical application of NLP for extracting useful information from text.
 
+
+ Technologies
+
+* Python
+* NLP
+* RAKE-NLTK
+* NLTK
+
 ---
 
-## 🛠️ Technologies
-
-* **Python**
-* **NLP**
-* **RAKE-NLTK**
-* **NLTK**
-
----
-
-## ✨ Features
+✨ Features
 
 * Takes text as input from the user
 * Automatically identifies important keywords
@@ -32,8 +30,7 @@ The purpose of this project is to demonstrate a simple and practical application
 * Easy to run and understand
 
 ---
-
-## 📂 Files
+ 📂 Files
 
 ```text
 SmartKey/
